@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {padding: 0;margin: 0;font-family: "PT Sans", sans-serif;overflow-x:hidden}
+*{margin: 0;padding: 0;}
+body .flex-row{ display: flex; flex-direction: row; flex-wrap: wrap; }
+body .flex-row .col-1{ flex: 0 0 8.34%; width: 8.34%; padding: 0 ; }
+body .flex-row .col-2{ flex: 0 0 16.67%; width: 16.67%; padding: 0 ; }
+body .flex-row .col-25{ flex: 0 0 20%; width: 20%; padding: 0 ; }
+
+body .flex-row .col-3{ flex: 0 0 25%; width: 25%; padding: 0 ; }
+body .flex-row .col-4{ flex: 0 0 33.33%; width: 33.33%; padding: 0 ; }
+body .flex-row .col-5{ flex: 0 0 41.66%; width: 41.66%; padding: 0 ; }
+body .flex-row .col-6{ flex: 0 0 50%; width: 50%; padding: 0 ; }
+body .flex-row .col-65{ flex: 0 0 55%; width: 55%; padding: 0 ; }
+body .flex-row .col-7{ flex: 0 0 58.33%; width: 58.33%; padding: 0 ; }
+body .flex-row .col-8{ flex: 0 0 66.66%; width: 66.66%; padding: 0 ; }
+body .flex-row .col-9{ flex: 0 0 75%; width: 75%; padding: 0 ; }
+body .flex-row .col-10{ flex: 0 0 83.33%; width: 83.33%; padding: 0 ; }
+body .flex-row .col-11{ flex: 0 0 91.66%; width: 91.66%; padding: 0 ; }
+body .flex-row .col-12{ flex: 0 0 100%; width: 100%; padding: 0 ; }
+body {background: #f4f3ee;}
+body .navbar{background: #fff;}
+body .container{width: 75%;margin: 0 auto;max-width: 100%;}
+body .navbar .container .flex-row .logo{display: flex;}
+body .navbar .container .flex-row .logo .linkdin {display: flex; align-items: end; justify-content: center; background: #0A66C2; margin-right: 7px; padding: 3px 5px 0px 5px; border-radius: 3px;}
+body .navbar .container .flex-row .logo .linkdin svg{ font-size: 2em; color: #fff;}
+body .navbar .container .flex-row .input-div input{padding: 10px;border-radius: 3px;border: none;background: #edf3f8;width: 80%;}
+body .navbar .container .flex-row .input-div{width: 100%;}
+body .navbar .container .flex-row .home-icons ul{display: flex; gap: 30px; list-style: none; padding: 0; align-items: center; justify-content: center;}
+body .navbar .container .flex-row .home-icons ul li{display: flex;flex-direction: column;gap: 5px;align-items: center;}
+body .navbar .container .flex-row .home-icons ul li svg{    font-size: 1.2em; color: #00000099;}
+body .navbar .container .flex-row .home-icons ul li p{font-size: 0.8em;color: #000;}
+body .navbar .container .flex-row .home-icons ul li img{height: 30px;width: 30px;border-radius: 50%;}
+body .navbar .container .flex-row .home-icons{border-right: 1px solid #dedede;}
+body .navbar .container .flex-row .sales{display: flex;gap: 25px;margin-left: 20px;}
+body .navbar .container .flex-row .sales ul{list-style: none;}
+body .navbar .container .flex-row .sales ul li{display: flex;flex-direction: column;align-items: center;gap: 5px;}
+body .navbar .container .flex-row .sales ul li svg{font-size: 1.2em; color: #00000099;}
+
+body .navbar .container .flex-row .sales ul li p{font-size: 0.8em;}
+body .navbar .container .flex-row .sales  .premium {display: flex;flex-direction: column;align-items: center;gap: 5px;justify-content: center;}
+body .navbar .container .flex-row .sales  .premium p{font-size: 0.8em;}
+body .navbar .container .flex-row {align-items: center;}
+body .container .main .flex-row .welcome-div .bg-figure .bg-img{padding: 1.7em 0em;background: url(./55k1z8997gh8dwtihm11aajyq.svg);width: 100%; background-repeat: no-repeat; background-size: cover;}
+body .container .main .flex-row .welcome-div .bg-figure {position: relative;}
+body .container .main .flex-row .welcome-div .bg-figure  img{position: relative; top: 100%; height: 70px; width: 70px; border-radius: 50%; transform: translate(-50%, -50%); left: 50%; border: 3px solid #fff;}
+body .container .main .flex-row .welcome-div h2{ font-size: 1.1em; font-weight: 400; color: #000; text-align: center;}
+body .container .main .flex-row .welcome-div h2:hover{text-decoration: underline;text-decoration-color: purple;}
+body .container .main .flex-row .welcome-div {    background: #fff; border-radius: 10px;overflow: hidden}
+body .container .main .flex-row .welcome-div > h4{font-size: 0.9em;  font-weight: 400;  color: #0a66c2;  text-align: center;  margin-top: 0.7em;}
+
+body .container .main .flex-row .connect-count {display: flex;justify-content: space-between; padding: 1.2em 0.5em;margin-top: 0.5em;border-top: 1px solid #dedede;}
+body .container .main .flex-row .connect-count  h4{    font-size: 0.9em;color: grey;font-weight: 500;}
+body .container .main .flex-row .connect-count  h3{color: #0a66c2;font-size: 0.85em;}
+body .container .main .flex-row .customers{    padding: 1em 0.5em;
+    border-top: 1px solid #dedede;}
+body .container .main .flex-row .customers h4{ font-size: 0.9em;color: grey;font-weight: 500;}
+body .container .main .flex-row .customers h5{ font-size: 0.85em;color: #000;font-weight: 600;margin-top: 0.4em;}
+body .container .main .flex-row .saved-items{display: flex;justify-content: flex-start;gap: 1em;align-items: center;padding: 0.5em 0.5em;border-top: 1px solid #dedede;}
+body .container .main .flex-row .saved-items svg{color: grey;font-size: 0.8em;}
+body .container .main .flex-row .saved-items  h3{font-size: 0.85em; color: #000; font-weight: 600; margin-top: 0.4em;}
+body .container .main .flex-row .discover h2{color: #0a66c2;font-size: 0.85em;padding: 0.7em 0;}
+
+body .container .main .flex-row .discover .grps-plus{display: flex;
+    justify-content: space-between;align-items: center;}
+
+body .container .main .flex-row .discover .grps-plus ul{list-style: none;}
+body .container .main .flex-row .discover .grps-plus ul li{font-size: 1.5em;}
+
+body .container .main .flex-row .discover .more h1{font-size: 0.85em;color: #000;font-weight: 600;margin-top: 0.4em;text-align: center;padding: 0.7em 0;border-top: 1px solid #dedede;}
+body .container .main .flex-row  .discover{ padding: 0.5em 0.5em; background: #fff; border-radius: 10px; margin-top: 1em;}
+
+body .container .main .flex-row  .share-a-post  {padding: 1em 1em; background: #fff;border-radius: 10px; margin: 0 2em;}
+body .container .main .flex-row  .share-a-post .btn-pic{    display: flex;
+ gap: 10px;}
+body .container .main .flex-row  .share-a-post .btn-pic img{    height: 50px; width: 50px; border-radius: 50%;}
+body .container .main .flex-row  .share-a-post .btn-pic button{width: 100%;border: 1px solid #b6b2b2; text-align: left;padding: 0em 1em;border-radius: 100px; font-size: 0.9em;background: #fff;}
+body .container .main .flex-row  .share-a-post .media { display: flex; justify-content: space-around;margin-top: 1em;}
+
+body .container .main .flex-row  .share-a-post .media-inner{display: flex;align-items: center;gap: 1em;}
+
+body .container .main .flex-row  .share-a-post .media-inner svg {font-size: 1.5em;}
+body .container .main .flex-row  .share-a-post .media-inner svg.fa-image {color:#378FE9}
+
+body .container .main .flex-row  .share-a-post .media-inner svg.fa-calendar-days{color: #C37D16;}
+
+body .container .main .flex-row  .share-a-post .media-inner  svg.fa-book{color: #E06847;}
+
+body .container .main .flex-row  .recomm{padding: 1em 1em;background: #fff;border-radius: 10px;margin: 1em 2em;}
+
+body .container .main .flex-row  .recomm h5{    font-size: 1.1em;font-weight: 400;margin-bottom: 1em;}
+body .container .main .flex-row  .recomm .recomm-inner{
+display: flex; padding: 1em 0;  border-bottom: 1px solid #dedede;}
+
+body .container .main .flex-row  .recomm .recomm-inner .flex-row img{    height: 55px; width: 55px; border-radius: 50%; object-fit: contain;}
+
+body .container .main .flex-row  .recomm .recomm-inner .flex-row .name-and-txt{margin-left: 2em;padding-right: 3em;}
+
+body .container .main .flex-row  .recomm .recomm-inner > .flex-row {justify-content: space-around;} 
+
+body .container .main .flex-row  .recomm .recomm-inner .flex-row .name-and-txt h4{font-size: 1.2em;} 
+body .container .main .flex-row  .recomm .recomm-inner .flex-row .name-and-txt p{ font-size: 0.9em; color: grey;}
+body .container .main .flex-row  .recomm .recomm-inner .flex-row   button{    padding: 8px 1.5em; font-size: 0.9em; color: #378FE9; background: #fff; border: 3px solid #378FE9; border-radius: 100px;}
+
+body .container .main .flex-row  .feed h5{ font-size: 1.1em;
+ font-weight: 400;  margin-bottom: 1em;}
+
+body .container .main .flex-row  .feed .feed-inner img{width: 50px;height: 50px;border-radius: 50%;}
+body .container .main .flex-row  .feed .feed-inner  button{    padding: 6px 1.5em;  font-size: 0.9em;  color: #000;  background: #fff;  border: 3px solid #000;  border-radius: 100px;margin-top: 0.5em;}
+body .container .main .flex-row  .feed .feed-inner{margin-bottom: 1em;}
+body .container .main .flex-row  .feed { padding: 1em 0.5em; background: #fff; border-radius: 10px;}
+body .container .main{margin-top: 1em;}
+
+body .container .main .flex-row  .col-3 > img{width: 100%;border-radius: 10px;margin-top: 1em;}
